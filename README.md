@@ -31,7 +31,7 @@ The camera is fixed, and the units are not controllable to the agent. The number
 
 *Sample image of the minigame
 
-![image](https://github.com/chengjunyan1/PySC2-minigame-agent/raw/master/dsc.png)
+![image](https://github.com/chengjunyan1/PySC2-minigame-learning-agent/raw/master/dsc.png)
 
 ## About the result
 
