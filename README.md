@@ -39,7 +39,7 @@ The camera is fixed, and the units are not controllable to the agent. The number
 
 In the experiment, the behavior of the agent is still looked not very smart. Although it could defeat the random agent and some very simple agent. The agent always tends to keep use one or two kinds of unit. The strategy only changed a little when the situation changed.
 
-Roughly speaking, I think there are three main causes:
+Roughly speaking, I think there are several main causes:
 
 Firstly, the minigame itself is not very fair, I adjusted the data of each unit for many times, but there are still many units not useful or economy. Testing the algorithm in a incomplete environment is not very rational.
 
@@ -47,4 +47,4 @@ Secondly, the design of reward is difficult, the agent cannot get an accurate fe
 
 Thirdly, defining the structure of the graph is also not easy. Even myself cannot judge whether the structure is rational enough because I'm also not an expert of this game. In most cases, I give the structure by intuition. 
 
-All in all, I think the second cause is the most crucial problem. Moreover, researching a new method in such a complex environment is also not a good idea. Too much inner mechanisms inside the game made it hard to evaluate whether the agent is rational. And PySC2 is almost a brand new platform at that time. There are very few samples and researches in this platform which also made the it more difficult. The processing of input data is already very difficult, all inputs are represented as rgb map and feature maps. 
+Moreover, researching a new method in such a complex environment is also not a good idea. Too much inner mechanisms inside the game made it hard to evaluate whether the agent is rational. And PySC2 is almost a brand new platform at that time. There are very few samples and researches in this platform which also made the it more difficult. The processing of input data is already very difficult, all inputs are represented as rgb map and feature maps. We need to build a huge intelligent system that processing different kinds of infomation to support the running of the algorithm.
