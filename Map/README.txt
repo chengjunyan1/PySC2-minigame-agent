@@ -1,0 +1,1 @@
+如果不能直接读取，就把地图名字修改成Simple64，直接覆盖掉StarCraft II/Melee/Simple64
