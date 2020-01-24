@@ -5,7 +5,7 @@ A PySC minigame learning agent
 
 **Prerequisite:** mainly PyTorch 0.4.1 and PySC2
 
-Its originally my course project for my undergraduate course Introduction to Artificial Intelligence, then I largely extended it since its really interesting (advised by Prof.Zhao Liu, about 2018.3-2018.7). It contains a neural network designed by myself by integrating the Multi Entity Beyasian Network and reinforcement learning. In comparison folder, I implemented other agents based on DDQN, CNN for comparison. The Draft folder included some my interesting drafts which showed my original thoughts about this project.
+Its originally my course project for my undergraduate course Introduction to Artificial Intelligence, then I largely extended it since its really interesting (this is not a group project, advised by Prof.Zhao Liu, about 2018.3-2018.7). It contains a neural network designed by myself by integrating the Multi Entity Beyasian Network and reinforcement learning. In comparison folder, I implemented other agents based on DDQN, CNN for comparison. The Draft folder included some my interesting drafts which showed my original thoughts about this project.
 
 ## About the method
 
