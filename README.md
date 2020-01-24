@@ -35,6 +35,6 @@ The camera is fixed, and the units are not controllable to the agent. The number
 
 ## About the result
 
-In the experiment, whatever the model I used (DDQN or myself), the behavior of the agent is still looked not very smart. Although it could defeat the random agent and some very simple agent. But their behavior is still weird, such as keep using one or two kinds of unit. The strategy only changed a little when the situation changed.
+In the experiment, the behavior of the agent is still looked not very smart. Although it could defeat the random agent and some very simple agent. The agent always tends to keep use one or two kinds of unit. The strategy only changed a little when the situation changed.
 
 Roughly speaking, I think there are three main causes. Firstly, the minigame itself is not very balenced, I adjusted the data of each unit for many times, but there are still many units not useful or economy. Secondly, the design of reward is difficult, rewarding the agent only at the end of the game will make it difficult to aware which action is good or not. Thirdly, defining the structure of the graph is also not easy. All in all, I think the second cause is the most crucial problem. Moreover, researching a new method in such a complex environment is also not a good idea... 
