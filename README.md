@@ -41,10 +41,10 @@ In the experiment, the behavior of the agent is still looked not very smart. Alt
 
 Roughly speaking, I think there are several main causes:
 
-Firstly, the minigame itself is not very fair, I adjusted the data of each unit for many times, but there are still many units not useful or economy. Testing the algorithm in a incomplete environment is not very rational.
+Firstly, the minigame itself is not very fair, I adjusted the data of each unit for many times, but there are still many units not useful or economy. Testing the algorithm in a incomplete environment is not very rational. 
 
 Secondly, the design of reward is difficult, the agent cannot get an accurate feedback of every action it made. The agent is only rewarded at the end of the game which make it difficult to aware which action is good or not. 
 
 Thirdly, defining the structure of the graph is also not easy. Even myself cannot judge whether the structure is rational enough because I'm also not an expert of this game. In most cases, I give the structure by intuition. 
 
-Moreover, researching a new method in such a complex environment is also not a good idea. Too much inner mechanisms inside the game made it hard to evaluate whether the agent is rational. And PySC2 is almost a brand new platform at that time. There are very few samples and researches in this platform which also made the it more difficult. The processing of input data is already very difficult, all inputs are represented as rgb map and feature maps. We need to build a huge intelligent system that processing different kinds of infomation to support the running of the algorithm.
+Moreover, although StarCraft II is an extremely intresting environment, but researching a new method in such a complex environment is not very rational without a large team and long term effort. Too much mechanisms inside the game. The processing of input data is already very difficult, all inputs are represented as rgb map and feature maps. We need to build a huge intelligent system that processing different kinds of infomation to support the running of the algorithm.
