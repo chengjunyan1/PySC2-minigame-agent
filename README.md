@@ -13,16 +13,16 @@ This is a research project supervised by Prof. Zhao Liu from 2018.3 to 2018.7. T
 
 #### This figure shows the infomation flow of my system. Some details may not be able to be showed in the figure. Include:
 
-#### The forgetting mechanism of the Facts base. 
+#### - The forgetting mechanism of the Facts base. 
 For this PySC2 minigame, I choose to clear the facts in every time step. 
 
-#### The way action selected. 
+#### - The way action selected. 
 It is assumed that once the inference finished, there must be a fragment output action probability vector activated, then the action could directly selected by this vector.  
 
-#### The way update the networks. 
+#### - The way update the networks. 
 The network is trained based on Experience Replay technique (Mnih, V., Kavukcuoglu, K., Silver, D. et al. Human-level control through deep reinforcement learning. Nature 518, 529–533 (2015). https://doi.org/10.1038/nature14236).
 
-#### The way activated fragments form a "big" network. 
+#### - The way activated fragments form a "big" network. 
 The inference engine will store a inference stack that stored all the visited fragments when inferencing in a time step. Thus a graph composed of these fragments with the perception as the top layer and the action vector as the leaf could be obtained by the inference stack. Since each fragment is actually compsosed of a neural network, all these network could form a lerge *end-to-end* neural network.   
 
 ## About the method
