@@ -37,7 +37,7 @@ There are two rules of activating fragments, by target or by perception. For exa
 
 The training of the agent is similar to DDQN. The agent could be trained by playing game with itself, or playing with other agent. 
 
-## About the game
+## About the PySC2 minigame
 
 PySC2 is a dynamic reinforcement learning environment on StarCraft II developed by Deepmind, this is their lated result on PySC2, AlphaStar:https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning. 
 
