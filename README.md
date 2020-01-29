@@ -43,7 +43,7 @@ PySC2 is a dynamic reinforcement learning environment on StarCraft II developed 
 
 Vinyals, O., Babuschkin, I., Czarnecki, W.M. et al. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature 575, 350–354 (2019). https://doi.org/10.1038/s41586-019-1724-z
 
-AlphaStar:https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning. 
+AlphaStar: https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning. 
 
 The agent is not aimed to challenge the complete StarCraft II game which is too complex. I chosed to challenge a minigame based on SC2. The minigame is called Dynamical Strategic Combat (and a variant called MSC, the difference is that, in MSC, you can use your resources to upgrade the technologies that make the units more powerful). This is a 1v1 game. The target of this minigame is to destroy enemy's base. The resources in each player's hands increase automatically over time, and players can use these resources to build thier army. The newly bought units will automatically attack on the enemy's base (go a straight line to enemie's base). However, it may also fight with the enemy's army on the road. The unit and fight mechanism in SC2 is very complex which is impossible to simply described here.
 
